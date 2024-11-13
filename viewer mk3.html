@@ -1,6 +1,19 @@
 <!DOCTYPE html>
-<html><head><title>AudioSET</title><style>        * {            font-family: 'Courier New', Courier, monospace}</style></head><body>
-    <h1>Audio Listing</h1><div id="audio-container"></div><script>
+<html>
+
+<head>
+    <title>AudioSET</title>
+    <style>
+        * {
+            font-family: "Jetbrains Mono", 'Courier New', Courier, monospace
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Audio Listing</h1>
+    <div id="audio-container"></div>
+    <script>
         function createAudioElements() {
             const audioContainer = document.getElementById('audio-container');
             const audioFiles = []; // place audio files here
@@ -20,4 +33,7 @@
             });
         }
         createAudioElements();
-    </script></body></html>
+    </script>
+</body>
+
+</html>
