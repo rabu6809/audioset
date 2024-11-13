@@ -3,19 +3,7 @@
     <h1>Audio Listing</h1><div id="audio-container"></div><script>
         function createAudioElements() {
             const audioContainer = document.getElementById('audio-container');
-            const audioFiles = [
-            'day1.mp3',
-            'game2.mp3',
-            'day9.mp3',
-            "faster.mp3",
-            'gust-of-fjords.mp3',
-            "Open.mp3",
-            "Encounter.mp3",
-            "bumblebee.mp3",
-            "scorched-sands.mp3",
-            "hey-ya.mp3",
-            "high-hopes.mp3"
-            ];
+            const audioFiles = []; // place audio files here
 
             audioFiles.forEach(file => {
                 const musicListItem = document.createElement('details')
